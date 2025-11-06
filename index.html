@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dean Brosnan | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand-link">Dean <span class="accent">Brosnan</span></a>
+      <nav class="nav">
+        <button id="nav-toggle">☰</button>
+        <ul class="nav-list" id="nav-list">
+          <li><a href="#introduction" class="nav-link active">Home</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#about" class="nav-link">About Me</a></li>
+          <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
+          <li><a href="#contact" class="nav-link cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="introduction" class="hero">
+    <div class="container hero-inner">
+      <h1 class="hero-title">Hi, I'm Dean Brosnan</h1>
+      <p class="hero-sub">
+        I am a 12-year-old developer with experience in web development, software, GUI, console apps, and more.
+        I love creating professional and polished projects, spending most of my free time improving my skills.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn primary">See My Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-lead">Here are some of the websites and applications I've built.</p>
+      <div class="cards-grid">
+        
+        <div class="card">
+          <div class="card-media" style="background-image:url('assets/imgs/TOSGB.png')"></div>
+          <div class="card-body">
+            <h3 class="card-title">TOSGB</h3>
+            <p class="card-text">TOSGB (The Old School GuideBook) is a <strong>retro style</strong> site designed to guide you through doing retro things such as burning CD's</p>
+            <div class="card-actions">
+              <a href="https://zeb1947.github.io/TOSGB" class="link-btn">View</a>
+              <a href="https://github.com/Zeb1947/TOSGB" class="link-btn">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-media" style="background-image:url('assets/imgs/scs.png')"></div>
+          <div class="card-body">
+            <h3 class="card-title">SCS</h3>
+            <p class="card-text">SCS (Supreme Cubing Shop) is one of my first ever sites, though not really in use currently it was a good starting point to creating websites. <strong>If the view button does not work this means that I have lost access to the domain.</strong> Supreme Cubing Shop was meant to be a cheap, easy, and quick way to order speedcubes in Ireland. It was not popular though, so I stopped updating it.</p>
+            <div class="card-actions">
+              <a href="https://www.supremecubingshop.com/home" class="link-btn">View</a>
+              <a href="https://github.com/Zeb1947/scs" class="link-btn">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-media" style="background-image:url('assets/imgs/stucur-bank.png')"></div>
+          <div class="card-body">
+            <h3 class="card-title">StuCur Bank</h3>
+            <p class="card-text">StuCur Bank (<strong>Stu</strong>dent <strong>Cur</strong>rency Bank) is a <strong>fictional</strong> banking system. <strong>It statically encrypts data using tokenized encryption</strong>, you can create and <strong>encrypt an account with a node js script</strong> and add it to accounts/. Then on the login page <strong>all you must do is enter your username and token/password.</strong></p>
+            <div class="card-actions">
+              <a href="https://zeb1947.github.io/stucurbank" class="link-btn">View</a>
+              <a href="https://github.com/Zeb1947/stucurbank" class="link-btn">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  <!-- ABOUT ME -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-lead">
+        I am passionate about coding and constantly learning new technologies. I specialize in the languages and degrees below.
+      </p>
+      <div class="skills-grid">
+        <div class="skill"><strong>Web Development</strong> HTML, CSS, JavaScript</div>
+        <div class="skill"><strong>Software</strong> Python, C/C++, Java, Etc.</div>
+        <div class="skill"><strong>GUI</strong> Electron, Java Swing/JavaX, Basic C/C++ GUI</div>
+        <div class="skill"><strong>Console</strong> CLI tools, Scripts, Automation, Console Games</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOBBIES -->
+  <section id="hobbies" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Hobbies</h2>
+      <p class="section-lead">When I am not coding, I enjoy:</p>
+      <ul class="cards-grid">
+        <li class="card">
+          <video autoplay loop muted class="card-video">
+            <source src="assets/vids/cubing-preview.mp4" type="video/mp4">
+          </video>
+          <div class="card-body">Speedcubing</div>
+        </li>
+
+        <li class="card">
+          <video autoplay loop muted class="card-video">
+            <source src="assets/vids/gaming-preview.mkv" type="video/mp4">
+          </video>
+          <div class="card-body">Gaming</div>
+        </li>
+        
+        <li class="card">
+          <video autoplay loop muted class="card-video">
+            <source src="assets/vids/reading-preview.mp4" type="video/mp4">
+          </video>
+          <div class="card-body">Reading</div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container contact-section">
+      <p>To contact me, just email: <a href="mailto:DeanBrosnan@hotmail.com" class="fancy-a">DeanBrosnan@hotmail.com</a></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>™ 2025 Dean Brosnan. All rights reserved.</p>
+      <p>This website is for public demonstration purposes.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
